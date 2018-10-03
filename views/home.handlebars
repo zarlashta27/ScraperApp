@@ -1,0 +1,42 @@
+{{!-- Home Page --}} 
+
+{{!-- Navbar at the top of the page --}}
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="nav-bar-header">
+            <a class="navbar-brand" href="/">Mongo Scraper</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/saved">Saved Articles</a>
+            </li>
+            <li>
+                <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{{!-- Text in the middle of the page --}}
+<div class="jumbotron text-center">
+    <div class="overlay">
+    </div>
+    <div class="back-ground-image">
+    </div>
+    <div class="caption">
+        <h1>Mongo Scraper</h1>
+        <p>New TImes Edition</p>
+    </div>
+</div>
+<div class="container-fluid article-container"></div>
+
+{{!-- Footer --}}
+<footer class="footer">
+    <div class="container">
+        <p>New York Times Mongo Scraper</p>
+    </div>
+</footer>
+
+<script src="../../assets/Javascript/index.js"></script>
