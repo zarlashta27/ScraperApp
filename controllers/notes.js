@@ -1,6 +1,6 @@
 //Controller for our notes
 
-var Note = require("../models/Note");
+var Note = require("../models/Notes");
 var makeDate = require("../scripts/date");
 
 //module.export object that holds all the functionalty such as get, delete and etc.
